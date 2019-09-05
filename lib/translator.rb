@@ -11,5 +11,4 @@ end
 def get_japanese_emoticon(yaml_file,emoticon)
   library = load_library(yaml_file)
   load_hash["get_emoticon"] do |english, japanese|
-    if emoticon == english
   end
