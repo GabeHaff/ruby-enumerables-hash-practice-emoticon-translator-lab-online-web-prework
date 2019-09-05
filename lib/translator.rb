@@ -10,13 +10,13 @@ load_hash
 end 
 def get_japanese_emoticon(yaml_file,emoticon)
   library = load_library(yaml_file)
-    load_hash = nil
+    response = nil
   library["get_emoticon"].each do |english, japanese|
     if emoticon == english
-      load_hash = japanese
-  if load_hash == nil
+      response = japanese
+  if response == nil
     return "Sorry, that emoticon was not found"
   else
-    return load_hash
+    return reponse
   end
 end	
