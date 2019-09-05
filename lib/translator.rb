@@ -10,5 +10,5 @@ load_hash
 end 
 def get_japanese_emoticon(yaml_file,emoticon)
   library = load_library(file)
-  load_hash["get_emoticon"] do |english, japanese|
+  load_hash["get_meaning"] do |english, japanese|
   end
