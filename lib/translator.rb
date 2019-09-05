@@ -14,5 +14,6 @@ def get_japanese_emoticon(file,emoticon)
     if emoticon == english 
       response = japanese
   end
-end 
+end
+if response == nil
 end 
