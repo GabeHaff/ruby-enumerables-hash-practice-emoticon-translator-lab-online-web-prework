@@ -10,8 +10,4 @@ load_hash
 end 
 def get_japanese_emoticon(yaml_file,emoticon)
   library = load_library(yaml_file)
-    if emoticon == english 
-      load_hash = japanese
-    end
-load_hash
-end 
+   
