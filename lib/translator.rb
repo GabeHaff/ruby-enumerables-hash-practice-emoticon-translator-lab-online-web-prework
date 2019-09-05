@@ -1,6 +1,6 @@
 require"yaml"
-def load_library("./lib/emoticons.yml")
-  library= YAML.load_file("./lib/emoticons.yml")
+def load_library(./lib/emoticons.yml)
+  library= YAML.load_file(./lib/emoticons.yml)
  library.each do |trans, emote|
   load_hash = {"get_meaning" => {} , "get_emoticon" =>{} }
   load_hash["get_meaning"][emote[1]]=trans 
