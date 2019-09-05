@@ -10,7 +10,7 @@ load_hash
 end 
 def get_japanese_emoticon(yaml_file,emoticon)
   library = load_library(yaml_file)
-  load_hash["get_emoticon"].each do |english, japanese|
+  load_hash{"get_emoticon"}.each do |english, japanese|
     if emoticon == english 
       load_hash = japanese
     end
