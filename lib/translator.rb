@@ -10,6 +10,6 @@ load_hash
 end 
 def get_japanese_emoticon(file,emoticon)
   library = load_library(file)
-  library["get_emoticon"] for each do |english,japanese|
+  library["get_emoticon"].each do |english,japanese|
 end 
 end 
