@@ -8,6 +8,6 @@ def load_library(file)
 end
 load_hash
 end 
-def get_japanese_emoticon(yaml_file,emoticon)
+def get_japanese_emoticon(file,emoticon)
   library = load_library(file)
   end
