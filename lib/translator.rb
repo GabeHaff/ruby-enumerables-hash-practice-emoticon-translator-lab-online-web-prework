@@ -9,5 +9,5 @@ end
 load_hash
 end 
 def get_japanese_emoticon(yaml_file,emoticon)
-  load_library[file] = return emote[7]
+  library = load_library
 end 
