@@ -8,14 +8,5 @@ def load_library(file)
 end
 load_hash
 end 
-def get_japanese_emoticon(yaml_file_path,emoticon)
-  library = load_library(yaml_file_path)
-  library["get_emoticon"].each do |english,japanese|
-    if emoticon == english 
-      return japanese
-  end
-end
-if emoticon != emoticon
-  return "Sorry, that emoticon was not found"
-end 
-end 
+def get_japanese_emoticon
+  
