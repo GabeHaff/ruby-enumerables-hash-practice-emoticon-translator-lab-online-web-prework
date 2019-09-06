@@ -15,9 +15,7 @@ def get_japanese_emoticon(yaml_file_path,emoticon)
       return japanese
   end
 end
-if emoticon == nil
+if emoticon != emoticon
   return "Sorry, that emoticon was not found"
-else return emoticon
-end
 end 
 end 
