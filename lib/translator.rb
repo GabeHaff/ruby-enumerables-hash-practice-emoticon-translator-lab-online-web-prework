@@ -18,6 +18,6 @@ end
 if emoticon == nil
   return "Sorry, that emoticon was not found"
 else 
-  return response 
+  return emoticon
 end 
 end 
