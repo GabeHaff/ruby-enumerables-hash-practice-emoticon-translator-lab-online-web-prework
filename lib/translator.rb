@@ -12,10 +12,10 @@ def get_japanese_emoticon(file,emoticon)
   library = load_library(file)
   library["get_emoticon"].each do |english,japanese|
     if emoticon == english 
-      return japanese
+      return[emoticon]japanese
   end
 end
-if file == nil
+if  == nil
   return "Sorry, that emoticon was not found"
 else 
   return emoticon
