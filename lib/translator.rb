@@ -8,7 +8,7 @@ def load_library(file)
 end
 load_hash
 end 
-def get_japanese_emoticon(file,emoticon)
+def get_japanese_emoticon(file_path,emoticon)
   library = load_library(file)
   library["get_emoticon"].each do |english,japanese|
     if result == english 
