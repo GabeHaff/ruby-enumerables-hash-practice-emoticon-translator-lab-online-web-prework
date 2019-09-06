@@ -21,5 +21,3 @@ else
   return result
 end 
 end 
-
-end
